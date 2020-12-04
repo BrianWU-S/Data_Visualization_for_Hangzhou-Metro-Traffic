@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1759</width>
+    <height>1014</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>20</y>
+      <width>1581</width>
+      <height>871</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="currentIndex">
+     <number>3</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <property name="styleSheet">
+      <string notr="true">#page{
+	background-image: url(:/new/prefix1/Images/background3.jpg);
+}</string>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>80</y>
+        <width>801</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>36</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-color: rgb(255, 255, 255);
+color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0.159204 rgba(131, 167, 80, 255), stop:0.502488 rgba(69, 141, 141, 255), stop:0.756219 rgba(9, 214, 44, 255), stop:1 rgba(255, 255, 255, 255));</string>
+      </property>
+      <property name="text">
+       <string>Welcome,please select the dataset </string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>250</y>
+        <width>550</width>
+        <height>391</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_13">
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="font">
+          <font>
+           <family>Agency FB</family>
+           <pointsize>16</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#pushButton_2{
+background-color: rgb(255, 255, 191);
+}</string>
+         </property>
+         <property name="text">
+          <string>Select Dataset</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_4">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Fixed</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>60</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="font">
+          <font>
+           <family>Agency FB</family>
+           <pointsize>16</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 127);</string>
+         </property>
+         <property name="text">
+          <string>Select Adjacency</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_5">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Fixed</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>60</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QCommandLinkButton" name="commandLinkButton">
+         <property name="font">
+          <font>
+           <family>Algerian</family>
+           <pointsize>16</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#commandLinkButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(138, 223, 0, 255), stop:0.348259 rgba(156, 63, 21, 255), stop:0.661692 rgba(44, 124, 201, 255), stop:0.81592 rgba(54, 178, 0, 255), stop:0.975124 rgba(255, 255, 255, 255));
+	font: 16pt &quot;Algerian&quot;;
+	color: rgb(255, 255, 255);
+}</string>
+         </property>
+         <property name="text">
+          <string>           GO TO MAIN INTERFACE</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_6">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <property name="styleSheet">
+      <string notr="true">#page_2{
+	background-image: url(:/new/prefix1/Images/background_lanrentuku.com.jpg);
+}</string>
+     </property>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>50</y>
+        <width>931</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>36</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#label_9{
+	font: 36pt &quot;Algerian&quot;;
+	color: rgb(80, 31, 17);
+}</string>
+      </property>
+      <property name="text">
+       <string>                   Main Interface</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>180</y>
+        <width>551</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetNoConstraint</enum>
+       </property>
+       <item row="4" column="0">
+        <widget class="QCommandLinkButton" name="commandLinkButton_3">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <family>Algerian</family>
+           <pointsize>28</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(138, 223, 0, 255), stop:0.348259 rgba(156, 63, 21, 255), stop:0.661692 rgba(44, 124, 201, 255), stop:0.81592 rgba(54, 178, 0, 255), stop:0.975124 rgba(255, 255, 255, 255));
+font: 28pt &quot;Algerian&quot;;
+	color: rgb(80, 31, 17);</string>
+         </property>
+         <property name="text">
+          <string>Plan Path</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QCommandLinkButton" name="commandLinkButton_4">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>16</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(138, 223, 0, 255), stop:0.348259 rgba(156, 63, 21, 255), stop:0.661692 rgba(44, 124, 201, 255), stop:0.81592 rgba(54, 178, 0, 255), stop:0.975124 rgba(255, 255, 255, 255));
+color: rgb(255, 85, 0);</string>
+         </property>
+         <property name="text">
+          <string>Go back to reselect Dataset</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Fixed</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="0">
+        <widget class="QCommandLinkButton" name="commandLinkButton_1">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <family>Algerian</family>
+           <pointsize>28</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(138, 223, 0, 255), stop:0.348259 rgba(156, 63, 21, 255), stop:0.661692 rgba(44, 124, 201, 255), stop:0.81592 rgba(54, 178, 0, 255), stop:0.975124 rgba(255, 255, 255, 255));
+font: 28pt &quot;Algerian&quot;;
+	color: rgb(80, 31, 17);</string>
+         </property>
+         <property name="locale">
+          <locale language="Chinese" country="China"/>
+         </property>
+         <property name="text">
+          <string>Select Data</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QCommandLinkButton" name="commandLinkButton_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <family>Algerian</family>
+           <pointsize>28</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(138, 223, 0, 255), stop:0.348259 rgba(156, 63, 21, 255), stop:0.661692 rgba(44, 124, 201, 255), stop:0.81592 rgba(54, 178, 0, 255), stop:0.975124 rgba(255, 255, 255, 255));
+font: 28pt &quot;Algerian&quot;;
+	color: rgb(80, 31, 17);</string>
+         </property>
+         <property name="text">
+          <string>Flow view</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Fixed</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="5" column="0">
+        <spacer name="verticalSpacer_7">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Fixed</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <property name="styleSheet">
+      <string notr="true">#page_3{
+	background-image: url(:/new/prefix1/Images/background_lanrentuku.com.jpg);
+}</string>
+     </property>
+     <widget class="QCommandLinkButton" name="commandLinkButton_5">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>510</y>
+        <width>411</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(138, 223, 0, 255), stop:0.348259 rgba(156, 63, 21, 255), stop:0.661692 rgba(44, 124, 201, 255), stop:0.81592 rgba(54, 178, 0, 255), stop:0.975124 rgba(255, 255, 255, 255));
+color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));</string>
+      </property>
+      <property name="text">
+       <string>Go back to main Interface</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>70</y>
+        <width>661</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>24</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(0, 0, 0, 255), stop:0.33 rgba(0, 0, 0, 255), stop:0.34 rgba(255, 30, 30, 255), stop:0.66 rgba(255, 0, 0, 255), stop:0.67 rgba(255, 255, 0, 255), stop:1 rgba(255, 255, 0, 255));</string>
+      </property>
+      <property name="text">
+       <string>                   Data Filter</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>250</y>
+        <width>242</width>
+        <height>426</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_14">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QCheckBox" name="checkBox">
+           <property name="font">
+            <font>
+             <family>Agency FB</family>
+             <pointsize>16</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));</string>
+           </property>
+           <property name="text">
+            <string>                 Time</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="checkBox_2">
+           <property name="font">
+            <font>
+             <family>Agency FB</family>
+             <pointsize>16</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));</string>
+           </property>
+           <property name="text">
+            <string>                 LineID</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="checkBox_3">
+           <property name="font">
+            <font>
+             <family>Agency FB</family>
+             <pointsize>16</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));</string>
+           </property>
+           <property name="text">
+            <string>                 StationID</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="checkBox_4">
+           <property name="font">
+            <font>
+             <family>Agency FB</family>
+             <pointsize>16</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));
+</string>
+           </property>
+           <property name="text">
+            <string>                 DeviceID</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="checkBox_5">
+           <property name="font">
+            <font>
+             <family>Agency FB</family>
+             <pointsize>16</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));</string>
+           </property>
+           <property name="text">
+            <string>                 Status</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="checkBox_6">
+           <property name="font">
+            <font>
+             <family>Agency FB</family>
+             <pointsize>16</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));</string>
+           </property>
+           <property name="text">
+            <string>                 UserID</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="checkBox_7">
+           <property name="font">
+            <font>
+             <family>Agency FB</family>
+             <pointsize>16</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));</string>
+           </property>
+           <property name="text">
+            <string>                 Paytype</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_10">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QDialogButtonBox" name="buttonBox">
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>16</pointsize>
+           <weight>9</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));
+font: 75 16pt &quot;Arial&quot;;
+color: rgb(255, 0, 0);</string>
+         </property>
+         <property name="standardButtons">
+          <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_4">
+     <property name="styleSheet">
+      <string notr="true">#page_4{
+background-image: url(:/new/prefix1/Images/background_lanrentuku.com.jpg);
+}</string>
+     </property>
+     <widget class="QCustomPlot" name="plot" native="true">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>30</y>
+        <width>1171</width>
+        <height>771</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="locale">
+       <locale language="English" country="UnitedStates"/>
+      </property>
+     </widget>
+     <widget class="QWidget" name="">
+      <property name="geometry">
+       <rect>
+        <x>1280</x>
+        <y>60</y>
+        <width>211</width>
+        <height>693</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_15">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_7">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <widget class="QLabel" name="label_2">
+             <property name="styleSheet">
+              <string notr="true">color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));
+font: 75 14pt &quot;Arial&quot;;</string>
+             </property>
+             <property name="text">
+              <string>Station ID</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit">
+             <property name="font">
+              <font>
+               <family>Agency FB</family>
+               <pointsize>12</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <item>
+            <widget class="QLabel" name="label_3">
+             <property name="styleSheet">
+              <string notr="true">color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));
+font: 75 14pt &quot;Arial&quot;;</string>
+             </property>
+             <property name="text">
+              <string>Date</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QDateEdit" name="dateEdit">
+             <property name="font">
+              <font>
+               <family>Agency FB</family>
+               <pointsize>12</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="locale">
+              <locale language="English" country="UnitedStates"/>
+             </property>
+             <property name="date">
+              <date>
+               <year>2019</year>
+               <month>1</month>
+               <day>7</day>
+              </date>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_4">
+           <item>
+            <widget class="QLabel" name="label_4">
+             <property name="styleSheet">
+              <string notr="true">color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));
+font: 75 14pt &quot;Arial&quot;;</string>
+             </property>
+             <property name="text">
+              <string>Start Time</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTimeEdit" name="start_time">
+             <property name="font">
+              <font>
+               <family>Agency FB</family>
+               <pointsize>12</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="time">
+              <time>
+               <hour>6</hour>
+               <minute>0</minute>
+               <second>0</second>
+              </time>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_3">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <item>
+            <widget class="QLabel" name="label_5">
+             <property name="styleSheet">
+              <string notr="true">color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));
+font: 75 14pt &quot;Arial&quot;;</string>
+             </property>
+             <property name="text">
+              <string>End Time</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QFrame" name="frame">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTimeEdit" name="endtime">
+             <property name="font">
+              <font>
+               <family>Agency FB</family>
+               <pointsize>12</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="time">
+              <time>
+               <hour>23</hour>
+               <minute>0</minute>
+               <second>0</second>
+              </time>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_4">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_6">
+           <item>
+            <widget class="QLabel" name="label_6">
+             <property name="styleSheet">
+              <string notr="true">color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));
+font: 75 14pt &quot;Arial&quot;;</string>
+             </property>
+             <property name="text">
+              <string>TimeStep</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTimeEdit" name="timestep">
+             <property name="font">
+              <font>
+               <family>Agency FB</family>
+               <pointsize>12</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="displayFormat">
+              <string>H:mm</string>
+             </property>
+             <property name="time">
+              <time>
+               <hour>0</hour>
+               <minute>0</minute>
+               <second>0</second>
+              </time>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_5">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QDialogButtonBox" name="buttonBox_2">
+           <property name="styleSheet">
+            <string notr="true">background-color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));
+font: 75 16pt &quot;Arial&quot;;
+color: rgb(255, 0, 0);</string>
+           </property>
+           <property name="standardButtons">
+            <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_9">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Preferred</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>80</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QCommandLinkButton" name="commandLinkButton_6">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>16</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(158, 155, 71, 251), stop:0.343284 rgba(186, 238, 255, 255), stop:0.641791 rgba(153, 124, 164, 255), stop:0.925373 rgba(255, 255, 255, 255), stop:0.935323 rgba(255, 255, 255, 255));
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(138, 223, 0, 255), stop:0.348259 rgba(156, 63, 21, 255), stop:0.661692 rgba(44, 124, 201, 255), stop:0.81592 rgba(54, 178, 0, 255), stop:0.975124 rgba(255, 255, 255, 255));</string>
+         </property>
+         <property name="text">
+          <string>Go_Back </string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_5">
+     <property name="styleSheet">
+      <string notr="true">#page_5{
+background-image: url(:/new/prefix1/Images/background_lanrentuku.com.jpg);
+}</string>
+     </property>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>210</y>
+        <width>864</width>
+        <height>411</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_12">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_10">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <spacer name="horizontalSpacer_11">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeType">
+              <enum>QSizePolicy::Fixed</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_9">
+             <item>
+              <widget class="QLabel" name="label_7">
+               <property name="font">
+                <font>
+                 <family>Algerian</family>
+                 <pointsize>20</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 20pt &quot;Algerian&quot;;</string>
+               </property>
+               <property name="text">
+                <string>    Start StationID</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_2">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout">
+                <item>
+                 <spacer name="verticalSpacer_8">
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Fixed</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>60</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="start_StationID">
+                  <property name="font">
+                   <font>
+                    <family>Agency FB</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <spacer name="verticalSpacer">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_8">
+             <item>
+              <widget class="QLabel" name="label_8">
+               <property name="font">
+                <font>
+                 <family>Algerian</family>
+                 <pointsize>20</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 20pt &quot;Algerian&quot;;</string>
+               </property>
+               <property name="text">
+                <string>     End StationID</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_3">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_2">
+                <item>
+                 <spacer name="verticalSpacer_9">
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>60</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="EndStationID">
+                  <property name="font">
+                   <font>
+                    <family>Agency FB</family>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_12">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeType">
+              <enum>QSizePolicy::Fixed</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>60</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_7">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="PlanPath">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 75 18pt &quot;Arial&quot;;
+color: rgb(218, 180, 141);
+background-image: url(:/new/prefix1/Images/background_lanrentuku.com.jpg);</string>
+           </property>
+           <property name="text">
+            <string>Plan Path</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_6">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QListWidget" name="DisplayWindow">
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_8">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>20</y>
+        <width>921</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>28</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Welcome,please input the stationID</string>
+      </property>
+     </widget>
+     <widget class="QCommandLinkButton" name="commandLinkButton_7">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>680</y>
+        <width>301</width>
+        <height>57</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(158, 155, 71, 251), stop:0.343284 rgba(186, 238, 255, 255), stop:0.641791 rgba(153, 124, 164, 255), stop:0.925373 rgba(255, 255, 255, 255), stop:0.935323 rgba(255, 255, 255, 255));
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(138, 223, 0, 255), stop:0.348259 rgba(156, 63, 21, 255), stop:0.661692 rgba(44, 124, 201, 255), stop:0.81592 rgba(54, 178, 0, 255), stop:0.975124 rgba(255, 255, 255, 255));</string>
+      </property>
+      <property name="text">
+       <string>       GO_BACK</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>2</width>
+      <height>2</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_11"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1759</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header>qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

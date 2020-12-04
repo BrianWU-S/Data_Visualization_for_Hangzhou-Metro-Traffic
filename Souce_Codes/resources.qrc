@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Images/background_lanrentuku.com.jpg</file>
+        <file>Images/background0.jpg</file>
+        <file>Images/background1.jpg</file>
+        <file>Images/background2.jpg</file>
+        <file>Images/background3.jpg</file>
+        <file>Images/background4.jpg</file>
+    </qresource>
+</RCC>
